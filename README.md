@@ -1,5 +1,11 @@
 # Churrascômetro.
 
+<div align="center">
+ 
+<img src="https://user-images.githubusercontent.com/113437603/195703273-5447440f-1ca9-4a06-b7d0-da9fc31680ad.png" width="460px">
+ 
+ </div>
+
 ### **Sobre o projeto:**
 
 - Trata-se de uma aplicação web na qual o usuário é capaz de, preenchido os dados necessários, calcular qual será a quantidade estimada para o consumo de carnes, cerveja e água/refrigerante em um churrasco, levando-se em consideração a duração deste, bem como a quantidade de adultos e crianças presentes.
