@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- COLOCAR FOTO NO ICON DO NAVEGOR -->
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+
+    <title>Churrascômetro</title>
+</head>
+
+<body>
+
+    <div id="main">
+        <div id="textLeft">
+            <h1 id="textTitle">Nós fazemos os cálculos <br>
+                para você aproveitar ao máximo<br>
+                o seu churrasco!</h1>
+            <img src="./assets/5241.png" alt="ilustracao familia churrasco" id="img">
+        </div>
+
+        <div id="containerRight">
+            <h1 id="containerTitle"><strong>Churrascômetro</strong></h1>
+            <div id="forms">
+                <label for="adultosInput" class="label"><strong>Quantidade de adultos</strong></label>
+                <input type="number" id="adultosInput" placeholder="Adultos">
+
+                <label for="criancasInput" class="label"><strong>Quantidade de crianças</strong></label>
+                <input type="number" id="criancasInput" placeholder="Crianças">
+
+                <label for="horasInput" class="label"><strong>Duração do churrasco</strong></label>
+                <input type="number" id="horasInput" placeholder="Em horas">
+            </div>
+            <button id="button">Calcular</button>
+            <p id="res"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
