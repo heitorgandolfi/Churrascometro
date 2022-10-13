@@ -98,6 +98,10 @@ input {
 }
 
 @media screen and (max-width: 800px) {
+    body {
+        overflow: visible;
+    }
+
     #main {
         flex-direction: column;
     }
