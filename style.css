@@ -1,5 +1,6 @@
 body {
     background-image: linear-gradient(to top, #2F967B 0%, #64FEC0 100%);
+    overflow: hidden;
 }
 
 #main {
