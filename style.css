@@ -34,7 +34,6 @@ body {
     font-family: 'Poppins', sans-serif;
     border-radius: 30px 0 0 30px;
     background-image: linear-gradient(170deg, #ff567f 0, #ff4786 16.67%, #fb358e 33.33%, #f02096 50%, #e2029f 66.67%, #d300a9 83.33%, #c000b4 100%);
-    margin: auto;
     height: 100vh;
     width: 35%;
 }
