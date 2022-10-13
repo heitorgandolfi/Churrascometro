@@ -32,10 +32,8 @@ body {
 #containerRight {
     text-align: center;
     font-family: 'Poppins', sans-serif;
-
     border-radius: 30px 0 0 30px;
     background-image: linear-gradient(170deg, #ff567f 0, #ff4786 16.67%, #fb358e 33.33%, #f02096 50%, #e2029f 66.67%, #d300a9 83.33%, #c000b4 100%);
-
     margin: auto;
     height: 100vh;
     width: 35%;
@@ -63,11 +61,9 @@ input {
 #button {
     cursor: pointer;
     width: 10em;
-
     border-radius: 30px;
     background-image: linear-gradient(to bottom, #2F967B 0%, #64FEC0 100%);
     box-shadow: 1px 2px 5px rgb(46, 45, 45);
-
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 10px 0;
@@ -116,7 +112,6 @@ input {
     }
 
     #containerRight {
-
         border-radius: 40px 40px 0 0;
         margin-top: 2em;
         height: 100%;
@@ -126,7 +121,6 @@ input {
     #res {
         margin-bottom: 4em;
     }
-
 }
 
 @media screen and (max-width: 400px) {
@@ -138,5 +132,4 @@ input {
     #containerTitle {
         font-size: 1.7em;
     }
-
 }
