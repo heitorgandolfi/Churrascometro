@@ -37,7 +37,7 @@ function calc() {
         }
     }
 
-    res.innerHTML = `<p><span class="titleJava">Você vai precisar de:</span></p><br>`
+    res.innerHTML = `<p><span class="titleJava">Você precisará de:</span></p><br>`
 
     res.innerHTML += `<p><img src="./assets/meat.png" class="fotoJava">
     ${calcMeat()/1000}Kg de <span class="textJava">carne</span>.</p><br>`
