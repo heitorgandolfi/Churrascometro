@@ -12,6 +12,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Churrascômetro</title>
 </head>
@@ -27,16 +30,25 @@
         </div>
 
         <div id="containerRight">
-            <h1 id="containerTitle"><strong>Churrascômetro</strong></h1>
+            <h1 id="containerTitle">
+                <strong>Churrascômetro</strong>
+            </h1>
+
             <div id="forms">
-                <label for="adultosInput" class="label"><strong>Quantidade de adultos</strong></label>
-                <input type="number" id="adultosInput" placeholder="Adultos">
+                <label for="adultosInput" class="label">
+                    <strong>Quantidade de adultos</strong>
+                </label>
+                <input type="number" min="0" id="adultosInput" placeholder="Adultos">
 
-                <label for="criancasInput" class="label"><strong>Quantidade de crianças</strong></label>
-                <input type="number" id="criancasInput" placeholder="Crianças">
+                <label for="criancasInput" class="label">
+                    <strong>Quantidade de crianças</strong>
+                </label>
+                <input type="number" min="0" id="criancasInput" placeholder="Crianças">
 
-                <label for="horasInput" class="label"><strong>Duração do churrasco</strong></label>
-                <input type="number" id="horasInput" placeholder="Em horas">
+                <label for="horasInput" class="label">
+                    <strong>Duração do churrasco</strong>
+                </label>
+                <input type="number" min="1" id="horasInput" placeholder="Em horas">
             </div>
             <button id="button">Calcular</button>
             <p id="res"></p>
