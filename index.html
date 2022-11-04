@@ -38,17 +38,20 @@
                 <label for="adultosInput" class="label">
                     <strong>Quantidade de adultos</strong>
                 </label>
-                <input type="number" min="0" id="adultosInput" placeholder="Adultos">
+                <input type="number" min="0" id="adultosInput" 
+                placeholder="Adultos">
 
                 <label for="criancasInput" class="label">
                     <strong>Quantidade de crianças</strong>
                 </label>
-                <input type="number" min="0" id="criancasInput" placeholder="Crianças">
+                <input type="number" min="0" id="criancasInput" 
+                placeholder="Crianças">
 
                 <label for="horasInput" class="label">
                     <strong>Duração do churrasco</strong>
                 </label>
-                <input type="number" min="1" id="horasInput" placeholder="Em horas">
+                <input type="number" min="1" oninput="validity.valid||(value='')" id="horasInput" 
+                placeholder="Em horas">
             </div>
             <button id="button">Calcular</button>
             <p id="res"></p>
