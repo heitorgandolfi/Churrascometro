@@ -16,7 +16,7 @@
 
 ### **Deploy do projeto:**
 
-- https://heitorgandolfi.github.io/churrascometro/
+- https://churrascometro-heitorgandolfi.vercel.app/
 
 <br>
 
